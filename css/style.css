@@ -9930,10 +9930,9 @@ h6,
 
 .portfolio-item:hover .portfolio-btn {
   opacity: 1;
-  width: calc(100% - 60px);
-  height: calc(100% - 60px);
+  width: calc(50% - 30px);
+  height: calc(50% - 30px);
   top: 30px;
-  left: 30px;
 }
 
 
@@ -9988,6 +9987,16 @@ h6,
 .contact .info .email,
 .contact .info .phone {
   margin-top: 40px;
+}
+
+
+
+@media (max-width: 600px) {
+.trail{
+  width: 500px;
+}
+
+
 }
 
 
